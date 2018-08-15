@@ -22,8 +22,7 @@
     dispatch_once(&onceToken, ^{
         NSURL *url = [[NSBundle bundleForClass:self] URLForResource:@"SORelativeDateTransformer" withExtension:@"bundle"];
         bundle = [[NSBundle alloc] initWithURL:url];
-        NSString * language = [[NSLocale preferredLanguages] objectAtIndex:0];
-        NSLog(@"dd");
+//        NSString * language = [[NSLocale preferredLanguages] objectAtIndex:0];
     });
     return bundle;
 }
