@@ -11,8 +11,6 @@ Pod::Spec.new do |s|
   }
   s.source_files = 'SORelativeDateTransformer/*.{h,m}'
   s.resources    = 'SORelativeDateTransformer/SORelativeDateTransformer.bundle'
-  s.requires_arc = true
-  s.ios.deployment_target = '9.0'
   s.dependency 'TTTLocalizedPluralString', :git => 'https://github.com/MyDreamsClub/TTTLocalizedPluralString.git'
 end
 
